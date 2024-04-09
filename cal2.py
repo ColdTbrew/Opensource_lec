@@ -1,4 +1,4 @@
 class MoreFourCal(FourCal):
 	def pow(self):
-		result = self.first ** self.second
-		return result
+		return self.first ** self.second
+		
