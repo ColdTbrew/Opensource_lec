@@ -1,0 +1,20 @@
+class FourCal:
+	def __init__(self, first, second):
+		self.first = first
+		self.second = second
+	def setdata(self, first, second):
+		self.first = first
+		self.second = second
+	def add(self):
+		result = self.first + self.second
+		return result
+	def sub(self):
+		result = self.first - self.second
+		return result
+	def mul(self):
+		result = self.first * self.second
+		a = self
+		return result
+
+if __name__ == "__main__":
+	print(FourCal(3,2))
